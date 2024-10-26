@@ -37,6 +37,11 @@ html {
   text-wrap: nowrap;
   cursor: pointer;
 }
+.nav-pera{
+    display: flex;
+    column-gap: 15px;
+    margin: 3px 0 0 0;
+}
 .gaming {
   color: var(--color1);
 }
