@@ -24,7 +24,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.75rem 0;
+  padding: 0.75rem 10px;
   max-width: 1040px;
   margin: 0 auto;
 }
@@ -37,16 +37,18 @@ html {
   text-wrap: nowrap;
   cursor: pointer;
 }
-.nav-pera{
-    display: flex;
-    column-gap: 15px;
-    margin: 3px 0 0 0;
-}
+
 .gaming {
   color: var(--color1);
 }
-.nav-right {
-    
+.pera-nav {
+    border: 1px solid red;
+    width: fit-content;
+}
+.nav-left>p{
+    display: flex;
+    flex-wrap: nowrap;
+    column-gap: 5px;
 }
 .nav-btn {
   background-color: transparent;
@@ -74,6 +76,7 @@ html {
   align-items: center;
   max-width: 1040px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 .banner-left {
